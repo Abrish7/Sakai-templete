@@ -368,6 +368,5 @@ export const TableDemo = () => {
                 </div>
             </div>
         </div>
-
     );
 }

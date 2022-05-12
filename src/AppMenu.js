@@ -10,7 +10,7 @@ const AppSubmenu = (props) => {
     const [activeIndex, setActiveIndex] = useState(null)
 
     const onMenuItemClick = (event, item, index) => {
-        //avoid processing disabled items
+        // avoid processing disabled items
         if (item.disabled) {
             event.preventDefault();
             return true;
